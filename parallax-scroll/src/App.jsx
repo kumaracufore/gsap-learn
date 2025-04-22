@@ -27,7 +27,7 @@ function App() {
           ? "3.5rem"
           : "2.5rem",
       opacity: 1,
-      y: "-20%", // Start slightly higher
+      y: "-20%",
       scale: 1,
     });
 
@@ -40,7 +40,7 @@ function App() {
           ? "2rem"
           : "1.5rem",
       opacity: 0.9,
-      y: "20%", // Move down but stay within frame
+      y: "20%",
       scale: 0.9,
       ease: "none",
       scrollTrigger: {
@@ -49,7 +49,7 @@ function App() {
         end: "+=50vh",
         scrub: 2,
         pin: false,
-        markers: false, // Removed debug markers
+        markers: false,
       },
     });
 
